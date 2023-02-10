@@ -16,8 +16,8 @@ if (! defined('ABSPATH')) {
  */
 function register_oembed_widget($widgets_manager)
 {
-    require_once(plugin_dir_path(__DIR__) . '/widgets/destacado-listing.php');
-    $widgets_manager->register(new \Elementor_Destacado_Listing_Widget());
+    require_once(plugin_dir_path(__DIR__) . '/widgets/header-bar.php');
+    $widgets_manager->register(new \Elementor_Header_Bar_Widget());
 }
 
 add_action('elementor/widgets/register', 'register_oembed_widget');

@@ -10,4 +10,139 @@ Text Domain: corporaciond1
 License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
-*/
+*/.inverted {
+  filter: invert(1);
+}.custom-navigation-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 100vh;
+  width: 135px;
+  background: #262626;
+  color: #FFF;
+}.custom-navigation-bar .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}.custom-navigation-bar .wrapper .button {
+  padding-top: 2rem;
+}.custom-navigation-bar .wrapper .links {
+  transform: rotate(270deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 4rem 0;
+  font-family: 'Titillium Web', sans-serif;
+}.custom-navigation-bar .wrapper .links a {
+  color: #FFF;
+}.custom-navigation-bar .wrapper .open-button {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  height: 18px;
+  width: 25px;
+}.custom-navigation-bar .wrapper .open-button span {
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}.custom-navigation-bar .wrapper .open-button span:nth-child(1) {
+  top: 0;
+}.custom-navigation-bar .wrapper .open-button span:nth-child(2) {
+  top: 50%;
+}.custom-navigation-bar .wrapper .open-button span:nth-child(3) {
+  top: 100%;
+}.custom-navigation-bar .menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  max-width: 800px;
+  background: #FFF;
+  z-index: 99;
+  transition: opacity .5s ease-in-out .1s;
+}.custom-navigation-bar .menu-hidden {
+  z-index: -10;
+  opacity: 0;
+  left: -100%;
+}.custom-navigation-bar .menu-container .header .title {
+  font-family: "Lausanne-Regular", sans-serif;
+  text-transform: uppercase;
+}.custom-navigation-bar .menu-container .menu-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100%;
+}.custom-navigation-bar .menu-container .menu-wrapper .logo {
+  align-self: flex-end;
+  padding: 2rem 0;
+  width: 167px;
+  text-align: center;
+}.custom-navigation-bar .menu-container .menu-wrapper .content {
+  padding: 2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: column;
+}.custom-navigation-bar .menu-container .menu-wrapper .content .custom-menu .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}.custom-navigation-bar .menu-container .menu-wrapper .content .custom-menu .menu li {
+  padding: 10px;
+}.custom-navigation-bar .menu-container .menu-wrapper .content .custom-menu .menu li a {
+  font-family: 'Saol Display', serif;
+  font-size: 5.4rem;
+  line-height: 3rem;
+  text-transform: lowercase;
+  color: #000;
+}.custom-navigation-bar .menu-container .menu-wrapper .content .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  font-family: 'Titillium Web', sans-serif;
+}.custom-navigation-bar .menu-container .menu-wrapper .content .footer a {
+  color: #000;
+}.custom-navigation-bar .menu-container .menu-wrapper .content .footer .social {
+  font-size: 1.3rem;
+  letter-spacing: 5px;
+}.custom-navigation-bar .menu-container .menu-wrapper .content .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 1.5rem;
+}.custom-navigation-bar .menu-container .menu-wrapper .content .header .menu-closer {
+  position: relative;
+  height: 90px;
+  width: 90px;
+  cursor: pointer;
+}.custom-navigation-bar .menu-container .menu-wrapper .content .header .menu-closer span {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #000;
+  display: inline-block;
+}.custom-navigation-bar .menu-container .menu-wrapper .content .header .menu-closer span:nth-child(1) {
+  transform: rotate(45deg);
+}.custom-navigation-bar .menu-container .menu-wrapper .content .header .menu-closer span:nth-child(2) {
+  transform: rotate(-45deg);
+}

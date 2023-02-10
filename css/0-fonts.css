@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SaolDisplay-LightItalic';
+    src: url(/fonts/saoldisplay-lightitalic.woff2) format('woff2');
+    src: url(/fonts/saoldisplay-lightitalic.otf) format('otf');
+    src: url(/fonts/saoldisplay-lightitalic.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Lausanne-Regular';
+    src: url(/fonts/lausanne-regular.woff2) format('woff2');
+    src: url(/fonts/lausanne-regular.otf) format('otf');
+    src: url(/fonts/lausanne-regular.ttf) format('ttf');
+}
