@@ -1,0 +1,9 @@
+{
+    "css": {
+        "compatibility": "*",
+        "removeComments": false
+    },
+    "js": {
+        "ecma": 6
+    }
+}

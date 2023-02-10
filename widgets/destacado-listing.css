@@ -1,0 +1,36 @@
+.destacado-listing-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.destacado-listing-container .destacado-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    flex: 0 0 32%;
+    max-width: 32%;
+}
+
+.destacado-listing-container .destacado-item header h3 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.destacado-listing-container .destacado-item header a {
+    font-weight: 900;
+}
+
+.destacado-listing-container .destacado-item hr {
+    border-top: 2px solid #b5b5b5;
+    margin: 6px 0 !important;
+}
+
+.destacado-listing-container .destacado-item span.date {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 600;
+    color: #c5a45f;
+}
